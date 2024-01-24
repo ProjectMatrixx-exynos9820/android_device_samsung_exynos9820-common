@@ -377,3 +377,15 @@ endif
 
 PRODUCT_COPY_FILES += \
     $(COMMON_PATH)/configs/wifi/wpa_supplicant_overlay.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/wpa_supplicant_overlay.conf
+    
+# Matrixx stuff
+WITH_GMS := true
+TARGET_HAS_UDFPS := true
+BUILD_GOOGLE_CONTACTS := true
+BUILD_GOOGLE_DIALER := true
+PRODUCT_USE_SCUDO := true
+TARGET_BOOT_ANIMATION_RES := 1080
+TARGET_FACE_UNLOCK_SUPPORTED := true
+BUILD_GOOGLE_MESSAGE := true  
+TARGET_BOOT_ANIMATION_RES := 1080 
+TARGET_DISABLE_EPPE := true
