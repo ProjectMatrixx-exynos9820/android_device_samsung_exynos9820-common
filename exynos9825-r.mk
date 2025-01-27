@@ -19,6 +19,10 @@ COMMON_PATH := device/samsung/exynos9820-common
 # Inherit common configuration
 $(call inherit-product, $(COMMON_PATH)/common.mk)
 
+# Display
+PRODUCT_PACKAGES += \
+    gralloc.universal9825_r
+
 # init
 PRODUCT_PACKAGES += \
     fstab.exynos9825 \
